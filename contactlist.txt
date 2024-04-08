@@ -10,5 +10,3 @@ Daniel Martinez,1234567890,danielmartinez@example.com
 Matthew Taylor,987654321,matthewtaylor@example.com
 Olivia Thomas,1234567890,oliviathomas@example.com
 James Jackson,5559876543,jamesjackson@example.com
-Gehad,01229102058,gehademail
-Khaled,12121212,khaledemail
