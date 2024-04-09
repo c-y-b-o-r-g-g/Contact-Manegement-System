@@ -14,7 +14,6 @@ public class Contacts {
 
         for (Contact temp : contacts) {
             if (temp.name.equals(name) && temp.phone.equals(phone)) {
-//                System.out.println("Contact Already Exists !");
                 return;
             }
         }
@@ -27,7 +26,6 @@ public class Contacts {
     public static void createContact(String name, String phone, String email) {
         for (Contact temp : contacts) {
             if (temp.name.equals(name) && temp.phone.equals(phone) && temp.email.equals(email)) {
-//                System.out.println("Contact Already Exists !");
                 return;
             }
         }
@@ -64,7 +62,6 @@ public class Contacts {
 
 
     public static void deleteContact(String name) {
-        int i;
         for (Contact temp : contacts) {
             if (temp.name.equals(name)) {
                 contacts.remove(temp);
@@ -92,7 +89,6 @@ public class Contacts {
     public static Contact searchForContact(String name) {
         for (Contact temp : contacts) {
             if (temp.name.equals(name)) {
-//                System.out.println(temp.name + "," + temp.phone + "," + temp.email);
                 return temp;
 
             }
@@ -103,7 +99,6 @@ public class Contacts {
     public static Contact popContact(String name) {
         for (Contact temp : contacts) {
             if (temp.name.equals(name)) {
-//                System.out.println(temp.name + "," + temp.phone + "," + temp.email);
                 contacts.remove(temp);
                 return temp;
 
